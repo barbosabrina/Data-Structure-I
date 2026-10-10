@@ -1,0 +1,15 @@
+Calculos de analise de algoritmo:
+
+Caso Base: n = 0;
+Caso Recursivo: t(n/2) + c;
+
+t(n) = t(n/2) + c;
+t(n/2) = t(n/4) + c;
+...
+t(n) = t(n/2^k) + k * c; //lógica de recorrencia das possibilidades
+
+Então a variedade de n é n/2^k = 1; 
+k = log2(n);
+
+Dessa forma: teta = log2(n);
+
